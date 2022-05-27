@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Account By Id</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  table, th, td {
+    border: 1px solid rgb(51, 51, 51);
+    }
+    th, td {
+    padding: 5px;
+    text-align: left;
+    }
+</style>
+<body>
+  <table style="width:20%">
+    <tr>
+        <th>Id:</th>
+        <td><%=account.id %></td>
+    </tr>
+    <tr>
+        <th>Name:</th>
+        <td><%=account.name %></td>
+    </tr>
+    <tr>
+        <th>Owner:</th>
+        <td><%=account.owner %></td>
+    </tr>
+    <tr>
+        <th>Created On:</th>
+        <td><%=account.createdAt %></td>
+    </tr>
+    <tr>
+        <th>Updated On:</th>
+        <td><%=account.updatedAt %></td>
+    </tr>
+  </table>
+<script src="script/app.js"></script>
+</body>
+</html>
